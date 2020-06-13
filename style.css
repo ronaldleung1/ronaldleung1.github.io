@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #14161a;
+  color: #add9a5;
+  font-family: 'Source Sans Pro', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+h1, h2, h3, h4 {
+  text-shadow: 0 0 10px #68bb59;
+}
+h2, h3, h4 {
+  font-weight: normal;
+  line-height: 1.6;
+}
+a {
+  color: #add9a5;
+}
+h1 a, h2 a, h3 a, h4 a{
+  background: linear-gradient(transparent 70%, rgba(104, 187, 89, 0.5) 70%);
+  text-decoration: none;
+  transition: background-position 1s;
+}
+a:hover {
+  background: rgba(104, 187, 89, 0.5);
+}
+
+.display-1 {
+  margin-block-start: 0;
+  font-size: 4rem;
+}
+.display-2 {
+  font-size: 2rem;
+}
+
+#emoji {
+  display: inline-block;
+  width: 5rem;
+  stroke: #add9a5;
+  filter: drop-shadow(0 0 10px #68bb59);
+}
+
+.container {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.hero {
+  padding: 6rem 4rem 2rem;
+}
