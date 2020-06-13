@@ -7,6 +7,25 @@ body, html {
   color: #add9a5;
   font-family: 'Source Sans Pro', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
+
+.container {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+.hero {
+  padding: 6rem 4rem 2rem;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 16px 0;
+  text-align: center;
+}
+
 h1, h2, h3, h4 {
   text-shadow: 0 0 10px #68bb59;
 }
@@ -14,16 +33,19 @@ h2, h3, h4 {
   font-weight: normal;
   line-height: 1.6;
 }
+
 a {
   color: #add9a5;
 }
 h1 a, h2 a, h3 a, h4 a{
   background: linear-gradient(transparent 70%, rgba(104, 187, 89, 0.5) 70%);
+  background-size: 100% 200%;
+  background-position: 0 70%;
   text-decoration: none;
-  transition: background-position 1s;
+  transition: background-position 0.2s;
 }
 a:hover {
-  background: rgba(104, 187, 89, 0.5);
+  background-position: 0 90%;
 }
 
 .display-1 {
@@ -39,14 +61,33 @@ a:hover {
   width: 5rem;
   stroke: #add9a5;
   filter: drop-shadow(0 0 10px #68bb59);
+  cursor: pointer;
+  animation: hand-wave 1s 1s;
+}
+@keyframes hand-wave {
+  0% {
+    transform: rotate(0);
+  } 25% {
+    transform: rotate(15deg);
+  } 40% {
+    transform: rotate(0);
+  } 55% {
+    transform: rotate(15deg);
+  } 70% {
+    transform: rotate(0);
+  } 85% {
+    transform: rotate(15deg);
+  }
 }
 
-.container {
-  width: 100%;
-  max-width: 680px;
-  margin: 0 auto;
-  padding: 0.5rem;
+.github-path {
+  fill: #888888;
 }
-.hero {
-  padding: 6rem 4rem 2rem;
+.octicon {
+  opacity: 40%;
+  margin: 0 auto;
+  transition: opacity 0.2s;
+}
+.octicon:hover {
+  opacity: 50%;
 }
