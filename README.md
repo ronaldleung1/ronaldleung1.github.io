@@ -1,5 +1,4 @@
-# Personal Website
-### [googol88.github.io](https://googol88.github.io)
+# Personal Website - [googol88.github.io](https://googol88.github.io)
 
 This site was built using [GitHub Pages](https://pages.github.com/)
 
