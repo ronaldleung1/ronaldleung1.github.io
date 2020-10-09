@@ -1,4 +1,4 @@
-# Personal Website - [https://googol.now.sh/](https://googol.now.sh/)
+# Personal Website - [googol.now.sh](https://googol.now.sh/)
 
 ~~This site was built using [GitHub Pages](https://pages.github.com/)~~
 
