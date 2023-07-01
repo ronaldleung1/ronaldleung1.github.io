@@ -39,7 +39,7 @@ a {
   color: #add9a5;
 }
 h1 a, h2 a, h3 a, h4 a{
-  background: linear-gradient(transparent 70%, rgba(104, 187, 89, 0.5) 70%);
+  background: linear-gradient(transparent 70%, rgba(104, 187, 89, 0.4) 70%);
   background-size: 100% 200%;
   background-position: 0 70%;
   text-decoration: none;
@@ -55,6 +55,10 @@ a:hover {
 }
 .display-2 {
   font-size: 2rem;
+}
+.display-3 {
+  font-size: 1.5rem;
+  line-height: 2;
 }
 
 #emoji {
