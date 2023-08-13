@@ -1,4 +1,4 @@
-# Personal Website - [googol.now.sh](https://googol.now.sh/)
+# Personal Website - [rnld.now.sh](https://rnld.now.sh/)
 
 This site is hosted on [Vercel](https://vercel.com/)
 
